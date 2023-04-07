@@ -6,6 +6,11 @@ p{
     margin:0;
     font-family: Red rose;
 }
+a {
+    font-family: Red rose;
+    color: black;
+    text-decoration: none;
+  }
 .whole-page {
     display:flex;
  
