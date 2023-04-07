@@ -1,0 +1,226 @@
+body{
+    margin:0;
+    overflow-x: hidden;
+}
+p{
+    margin:0;
+    font-family: Red rose;
+}
+.whole-page {
+    display:flex;
+ 
+    width: 100vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+.top-page{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.help {
+    color: #FFDBDB;
+    font-family: Red Rose;
+
+}
+.red-logo {
+    padding-left: 20px;
+}
+
+.help-searchbar {
+padding-right: 20px;
+ align-items: center;
+}
+
+.search-bar{
+    
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 128px;
+    height:20px;
+    background-image: url(Homepage-pics/image\ 13.png);
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    background-position: 5px;
+    padding-top: 3px;
+}
+.search-bar::placeholder{
+    font-size: 16px ;
+}
+
+.menu-bar {
+    align-self: center;
+    display:flex;
+    justify-content: flex-start;
+
+    width:100dvw;
+    background-image: linear-gradient(to bottom, rgb(255,238,99,1), rgb(255,238,99,0.37));
+    height: 50px;
+    
+}
+.Trangchu{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+    padding-inline: 20px;
+    height:100%;
+
+}
+
+.Trangchu:hover {
+    background-image: url("Homepage-pics/gradient.png");
+    color:white;
+    cursor:pointer;
+}
+
+.MBText{
+    font-family: Red rose;
+    font-size: 16px;
+   
+}
+.banner{
+   width:100%;
+   object-fit: cover;
+
+    
+}
+.gradient-background{
+    display:flex;
+    background-image: linear-gradient(to right,rgb(123,16,16,0),rgb(123,16,16,1));
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.art {
+    margin-top: 40px;
+}
+
+.SPCL {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin-top: 65px;
+    column-gap: 5%;
+    row-gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  .SPCL1 {
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 400px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+
+  }
+
+  .SPCL-I {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .description {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;   
+    align-items: baseline;
+  }
+
+  .ten {
+  padding-left: 20px;
+  }
+
+  .Gia {
+  padding-right: 20px;
+  }
+
+.page-number {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.page-button {
+    font-family: red rose;
+    font-size: 20px;
+    background-color: #897676;
+    width: 60px;
+    height: 46px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.page-button:hover{
+    color:white;
+    background-color: #CA5858;
+    cursor: pointer;
+}
+
+  .DMSP {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1200px;
+  }
+
+  .DMSPcollumn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-page{
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    background-color: #D9D9D9;
+    gap:10%;
+    padding-top: 40px;
+    padding-left: 80px;
+
+  }
+  .TTLH {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .HKD{
+
+    display: flex;
+    flex-direction: column;
+ 
+
+  }
+
+  .Social {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 460px;
+
+  }
+  
+  
+
+
+  

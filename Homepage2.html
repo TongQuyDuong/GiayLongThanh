@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1">
+        <link rel="icon" href="asset/img/icon.png" type="icon">
+        <title>Giày Long Thành - Sản Phẩm</title>
+    <link rel="stylesheet" href="Homepage2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color:  rgba(4, 4, 4, 0.8999999761581421);">
+<div class="whole-page">
+    <div class="top-page">
+        <img src="Homepage-pics/image 8.png" class="red-logo">
+        <div class="help-searchbar">
+            <text class="help"> Help </text>
+            <input class="search-bar" type="text" placeholder="Search" style="background-color: #A7A5A5;">
+        </div>
+    </div>
+    <div class="menu-bar">
+        <div class="Trangchu" id="trangchu">
+        <a href="index.html" ><p class="MBText">TRANG CHỦ</p> </a>
+        </div>
+        <div class="Trangchu" id="Gioithieu">
+            <a href="gioithieu.html" > <p class="MBText"> GIỚI THIỆU   </p></a>
+        </div>
+        <div class="Trangchu" id="SPTB">
+            <a href="SPTB.html" > <p class="MBText"> SẢN PHẨM   </p></a>
+        </div>
+        <div class="Trangchu">
+            <p class="MBText"> HÀNG ĐẶT-SỬA   </p>
+        </div>
+        <div class="Trangchu">
+            <p class="MBText"> PHÂN PHỐI   </p>
+        </div>
+        <div class="Trangchu" id="Gioithieu2">
+            <a href="gioithieu.html" > <p class="MBText"> TIN TỨC   </p></a>
+        </div>
+        <div class="Trangchu">
+            <p class="MBText"> TUYỂN DỤNG   </p>
+        </div>
+        <div class="Trangchu">
+            <p class="MBText"> LIÊN HỆ   </p>
+        </div>
+    </div>
+    
+    <img class="banner" src="Homepage-pics/Banner.png">
+    <div class="gradient-background">
+    <img class="art" src="Homepage-pics/Group 4.png">
+
+    <div class="address-bar">
+        <p>Trang chủ > Sản Phẩm > Dành cho nam > Giày > Giày Nam</p>
+    </div>
+
+    <div class="product-info">
+        <div class="preview">
+            <div class="preview-rows">
+                <div class="preview-frames">
+                    <img class="PV-image" src="Homepage-pics/PV1.png">
+                </div>
+                <div class="preview-frames">
+                    <img class="PV-image" src="Homepage-pics/PV2.png">
+                </div>
+            </div>
+            <div class="preview-rows">
+                <div class="preview-frames">
+                    <img class="PV-image" src="Homepage-pics/PV3.png">
+                </div>
+                <div class="preview-frames">
+                    <img class="PV-image" src="Homepage-pics/PV4.png">
+                </div>
+            </div>
+            <div class="preview-rows">
+                <div class="preview-frames">
+                    <img class="PV-image" src="Homepage-pics/PV5.png">
+                </div>
+                <div class="preview-frames">
+                    <img class="PV-image" src="Homepage-pics/PV6.png">
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <p style="color: #FEFEFE; font-size: 48px;"> Giay Nam</p>
+            <p style="color: #FDF8F8; font-size: 24px;">Mã sản phẩm: W014</p>
+            <div>
+            <p style="display: inline; color: #FEFEFE; font-size: 32px;"> Giá: </p> <p style="display: inline; color: #F34141; font-size: 32px;"> 800.000 VNĐ</p>
+            </div>
+            <div class="PV-selection">
+                <input type="radio" name="color" id="black" checked="checked">
+                <label for="black" class="icon">
+                    <img class="black-icon" src="Homepage-pics/66.jpg">
+                </label>
+                <input type="radio" name="color" id="blue">
+                <label for="blue" class="icon">
+                    <img class="blue-icon" src="Homepage-pics/PV1-xanh.jpg">
+                </label>
+                
+            </div>
+            <p style="color: #FEFEFE; font-size: 24px;"> Chọn Size: </p>
+            <div class="sizes">
+                   <input type="radio" name="size" id="38">
+                   <label for="38">38</label>
+                   <input type="radio" name="size" id="39">
+                   <label for="39">39</label>
+                   <input type="radio" name="size" id="40">
+                   <label for="40">40</label>
+                   <input type="radio" name="size" id="41">
+                   <label for="41">41</label>
+                   <input type="radio" name="size" id="42">
+                   <label for="42">42</label>
+                   <input type="radio" name="size" id="43">
+                   <label for="43">43</label>
+            </div>
+            <div class="SoLuong">
+                <text style="color:white;font-family: red rose; font-size: 24px;">Số Lượng: </text>
+                <div class="wrapper">
+                    <span class="minus">-</span>
+                    <span class="num">1</span>
+                    <span class="plus">+</span>
+                </div>
+                <script>
+                    const plus = document.querySelector(".plus"),
+                    minus = document.querySelector(".minus"),
+                    num = document.querySelector(".num");
+
+                    let a = 1;
+
+                    plus.addEventListener("click", ()=>{
+                        a++;
+                        num.innerText = a;
+                    });
+                    minus.addEventListener("click", ()=>{
+                        if(a>1){
+                        a--;
+                        num.innerText = a;
+                        }
+                    });
+                </script>
+
+            </div>
+            <button class="DatHang"> Đặt Hàng</button>
+        </div>
+    </div>
+
+    <img class="art" src="Homepage-pics/Group 4.png">
+
+    <p style="color: white; font-size: 80px; margin-block: 30px;">SẢN PHẨM CÙNG LOẠI</p>
+
+    <div class="SPCL">
+            <div class="SPCL1">
+                    <img class="SPCL-I" src="Homepage-pics/SPCL1.png">
+                    <div class="description">
+                      <div class="ten">
+                        <p style="font-size: 42px;">Giày Nam</p>
+                        <p style="font-size: 21px; color:#989494 ;">Mã sản phẩm: W015</p>
+                        </div>
+                        <div class="Gia">
+                        <p style="font-size: 28px;">760.000 VNĐ</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="SPCL1">
+                    <img class="SPCL-I" src="Homepage-pics/SPCL2.png">
+                    <div class="description">
+                      <div class="ten">
+                        <p style="font-size: 42px;">Giày Nam</p>
+                        <p style="font-size: 21px; color:#989494 ;">Mã sản phẩm: W012</p>
+                        </div>
+                        <div class="Gia">
+                        <p style="font-size: 28px;">800.000 VNĐ</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="SPCL1">
+                    <img class="SPCL-I" src="Homepage-pics/SPCL3.png">
+                    <div class="description">
+                      <div class="ten">
+                        <p style="font-size: 42px;">Giày Nam</p>
+                        <p style="font-size: 21px; color:#989494 ;">Mã sản phẩm: W013</p>
+                        </div>
+                        <div class="Gia">
+                        <p style="font-size: 28px;">800.000 VNĐ</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="SPCL1">
+                    <img class="SPCL-I" src="Homepage-pics/SPCL4.png">
+                    <div class="description">
+                      <div class="ten">
+                        <p style="font-size: 42px;">Giày Nam</p>
+                        <p style="font-size: 21px; color:#989494 ;">Mã sản phẩm: W011</p>
+                        </div>
+                        <div class="Gia">
+                        <p style="font-size: 28px;">760.000 VNĐ</p>
+                        </div>
+                     </div>
+                </div>
+                
+                
+    </div>
+
+</div>
+    
+    <p style="color: white; font-size: 48px; margin-block: 30px;">DANH MỤC SẢN PHẨM</p>
+
+    <div class="DMSP">
+        <div class="DMSPcollumn">
+            <p style="color:white;font-size: 24px;">Dành cho nam </p>
+            <p style="color:white;font-size: 24px; padding-left: 20px;"> Giày <br>
+                Sandal <br>
+                Sabô <br>
+                Dép da <br>
+                Ví nam <br>
+                Dây nịt nam
+            </p>
+        </div>
+        <div class="DMSPcollumn">
+            <p style="color:white;font-size: 24px;">Dành cho nữ </p>
+            <p style="color:white;font-size: 24px; padding-left: 20px;"> Giày <br>
+                Sandal <br>
+                Sabô <br>
+                Dép da <br>
+                Túi sách nữ <br>
+                Ví nữ
+            </p>
+        </div>
+        <div class="DMSPcollumn">
+            <p style="color:white;font-size: 24px;">Dành cho trẻ em nam </p>
+            <p style="color:white;font-size: 24px; padding-left: 20px;">
+                Sandal <br>
+                Sabô <br>
+                Dép da <br>
+                Giày da
+            </p>
+        </div>
+        <div class="DMSPcollumn">
+            <p style="color:white;font-size: 24px;">Dành cho trẻ em nữ </p>
+            <p style="color:white;font-size: 24px; padding-left: 20px;">
+                Sandal <br>
+                Sabô <br>
+                Dép <br>
+                Giày
+            </p>
+        </div>
+    </div>
+    <div class="info-page">
+        <div class="TTLH">
+            <p style="font-size: 36px;">THÔNG TIN LIÊN HỆ</p>
+            <p style="font-size: 24px; margin-block: 30px;">➤ Địa chỉ: 67B Tháp Mười, P.2, Q.6, TP.HCM<br>
+                ➤ SĐT: (028) 3960 0981 – 3969 3851 <br>
+                ➤ Fax: (028) 3969 6099<br>
+                ➤ Hotline: 028.66.73.68.68<br>
+                ➤ Email: tranlongthanh@yahoo.com - minhnghi27@yahoo.com<br>
+                ➤ Website: www.longthanhgiay.com - www.longthanhgiay.vn<br>
+            </p>
+        </div>
+        <div class="HKD">
+            <p style="font-size: 36px;">HKD LONG THÀNH</p>
+            <p style="font-size: 24px; margin-top: 30px;">Số ĐKKD 41F8003504 do Sở UBND Q. 6 cấp ngày 13/10/2003 <br>
+                Người đại diện: Trần Hữu Thành</p>
+            <div class="Social">
+                <img class="social-icon" src="Homepage-pics/fb.png">
+                <img class="social-icon" src="Homepage-pics/twt.png">
+                <img class="social-icon" src="Homepage-pics/gg+.png">
+                <img class="social-icon" src="Homepage-pics/yt.png">
+            </div>
+
+        </div>
+
+    </div>
+          
+</div>
+<script src="JS.js " type="module"></script>
+</body>
